@@ -216,6 +216,14 @@ footer {
 .banner-font-50 {
     font-size: 28px !important;
 }
+
+.feature-item {
+    margin: 10px;
+}
+.feature-item {
+    text-align: center;
+}
+
 }
 
 @media only screen and (max-width:991px){
