@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
 *{
     padding: 0px;
     margin: 0px;
@@ -8,35 +12,35 @@ html {
 
 
 @font-face {
-    font-family: "Gilroy-Light";
-    src: url(../fonts/Gilroy-Light.otf);
+    font-family: "-Light";
+    src: url(../fonts/-Light.otf);
 }
 @font-face {
-    font-family: "Gilroy-ExtraBold";
-    src: url(../fonts/Gilroy-ExtraBold.otf);
+    font-family: "-ExtraBold";
+    src: url(../fonts/-ExtraBold.otf);
 }
 
 
 @font-face {
-  font-family: "Gilroy-Bold";
-  src: url(../fonts/Gilroy-Bold.otf);
-}
-
-@font-face {
-  font-family: "Gilroy-Medium";
-  src: url(../fonts/Gilroy-Medium.otf);
+  font-family: "";
+  src: url(../fonts/.otf);
 }
 
 @font-face {
-  font-family: "Gilroy-SemiBold";
-  src: url(../fonts/Gilroy-SemiBold.otf);
+  font-family: "-Medium";
+  src: url(../fonts/-Medium.otf);
+}
+
+@font-face {
+  font-family: "";
+  src: url(../fonts/.otf);
 }
 
 
 /*font class*/
 
-.Gilroy-ExtraBold{
-    font-family: "Gilroy-ExtraBold";
+.-ExtraBold{
+    font-family: "-ExtraBold";
     
 }
 
@@ -45,27 +49,27 @@ html {
 	margin-bottom:15px;
 }
 
-.Gilroy-Bold{
-    font-family: "Gilroy-Bold";
+.{
+    font-family: "";
 }
 
-.Gilroy-Light{
-    font-family: "Gilroy-Light";
+.-Light{
+    font-family: "-Light";
 }
 
-.Gilroy-Medium
+.-Medium
 {
-	font-family: "Gilroy-Medium";
+	font-family: "-Medium";
 }
 
-.Gilroy-SemiBold
+.
 {
-	font-family: "Gilroy-SemiBold";
+	font-family: "";
 }
 
 
  body{
-    font-family: 'Gilroy-Light', sans-serif;
+    font-family: 'Poppins', sans-serif;
 	/*padding-top: 8rem;*/
  }
  a {
@@ -478,7 +482,7 @@ width: 40px;
 /*seller hub portal satrat*/
 #navmenu-nav li.sec_active a {
     color: #ED1C24 !important;
-	font-family: "Gilroy-SemiBold";
+	font-family: "";
 }
 .sidebar-nav>.navbar-item .navbar-link {
     color: #393939 !important;
@@ -492,7 +496,7 @@ width: 40px;
     padding-left: 15px;
     font-size: 24px;
    /* font-weight: 700;*/
-	font-family: "Gilroy-SemiBold";
+	font-family: "";
 }
 
 
@@ -614,7 +618,7 @@ margin-top: -40px;
 }
 
 .host_area .icon-box .title {
-    font-family: "Gilroy-SemiBold";
+    font-family: "";
     margin-bottom: 15px;
     font-size: 18px;
 }
@@ -655,13 +659,13 @@ margin-top: -40px;
 	.pricing_box .pricing_red_heding h4
 	{
 		font-size: 18px;
-		font-family: "Gilroy-SemiBold";
+		font-family: "";
 	}	
 	
 	.pricing_box .pricing_dark_heding h4
 	{
 		font-size: 18px;
-		font-family: "Gilroy-SemiBold";
+		font-family: "";
 	}
 	
 	.pricing_structure .pricing_red_heding
@@ -1742,8 +1746,7 @@ background-color: #05f8a1;
     margin-bottom: 10px;
 }
 .price__features ul li {
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 16px; 
     color: #0e1133;
     position: relative;
     padding-left: 30px;
@@ -1850,8 +1853,7 @@ li {
 	}
 	.price-item h4
 	{
-		font-size: 20px;
-    	font-weight: 700;
+		font-size: 20px; 
 	}
 	
 	.Oodua-Services-card img
@@ -1889,13 +1891,8 @@ li {
 .about-content p
 {
 	font-size: 16px;
-    color: #4B566A;
-	font-weight: 600;
-}
-.about-content .title
-{
-	
-}
+    color: #4B566A; 
+} 
 .profile-edit-address {
     border: 1px solid #ddd;
     padding: 1rem 1rem;
@@ -1991,10 +1988,7 @@ box-shadow: 0 20px 30px 0 rgb(4 23 118 / 30%);
 color:#4B566A;
 }
 
-.section__title p
-{
-	font-weight:700;
-}
+ 
 
 .footer-bottom {
     padding: 0px;
