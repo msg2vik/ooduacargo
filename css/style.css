@@ -1840,7 +1840,12 @@ li {
 	padding: 45px 50px 60px;
     border-radius: 6px;
 	}
-	
+	.list-group-item.active {
+        z-index: 2;
+        color: #fff;
+        background-color: #243a85;
+        border-color: #243a85;
+    }
 	.Oodua-Services-card
 	{
 		height:24rem;
